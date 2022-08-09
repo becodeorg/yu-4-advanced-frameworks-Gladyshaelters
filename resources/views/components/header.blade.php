@@ -15,5 +15,10 @@
             Contact
         </a>
 
+          <a href="{{ route('signup')}}">
+            Sign Up
+        </a>
+
+
     </div>
 </header>
