@@ -3,12 +3,12 @@
 
     <div class="nav">
 
-        <a href=#>
+        <a href="{{ route('home')}}">
             Home
         </a>
 
-        <a href=#>
-            Contact
+        <a href="{{ route('aboutPage')}}">
+            About
         </a>
 
         <a href=#>
