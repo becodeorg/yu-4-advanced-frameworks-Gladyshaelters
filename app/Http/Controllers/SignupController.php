@@ -8,6 +8,6 @@ class SignupController extends Controller
 {
     public function show()
     {
-        return view("welcome");
+        return view("pages.signup");
     }
 }
