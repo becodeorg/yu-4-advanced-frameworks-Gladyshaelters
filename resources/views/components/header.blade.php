@@ -11,8 +11,8 @@
             About
         </a>
 
-        <a href=#>
-            Form
+        <a href="{{ route('contact')}}">
+            Contact
         </a>
 
     </div>
