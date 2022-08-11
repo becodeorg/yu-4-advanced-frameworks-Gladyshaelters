@@ -12,3 +12,6 @@ Route::get('about', [AboutController::class, 'show'] )->name("aboutPage");
 Route::get('contact', [ContactController::class, 'show'] )->name("contact");
 Route::get('signup', [SignupController::class, 'show'] )->name("signup");
 Route::get('logIn', [LogInController::class, 'show'] )->name("logIn");
+
+Route::get('loggedIn', [LogInController::class, 'submitLogIn'] )->name("loggingIn");
+Route::post('loggedIn', [LogInController::class, 'submitLogIn'] )->name("submitLoggedIn");

@@ -10,4 +10,11 @@ class LogInController extends Controller
     {
         return view("pages.logIn");
     }
+
+       public function submitLogIn(Request $request)
+    {
+     
+        $user = $request->input('user');
+        return view("pages.loggedIn")->with('user', $user);  
+    }
 }

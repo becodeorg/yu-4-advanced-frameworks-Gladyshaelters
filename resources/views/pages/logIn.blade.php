@@ -9,10 +9,10 @@
     <form action="" method="POST" class="">
         @csrf
 
-        <label class="" for="email">
-            E-mail address
+        <label class="" for="user">
+            Username
         </label>
-        <input class="" name="email" id="email" type="email" value="" placeholder="E-mail address">
+        <input class="" name="user" id="user" type="text" value="" placeholder="Username">
 
         <label class="" for="password">
             Password
