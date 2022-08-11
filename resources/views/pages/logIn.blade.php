@@ -6,7 +6,7 @@
     <p>Log in to your profile</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae asperiores et, eveniet illum totam repellendus ab unde ipsum blanditiis, sapiente in consectetur. Autem, impedit nulla magnam quae ipsa recusandae ad.</p>
     <!--Don't forget to put the directing location in action-->
-    <form action="" method="POST" class="">
+    <form action="{{ route('submitLoggedIn') }}" method="POST" class="">
         @csrf
 
         <label class="" for="user">
