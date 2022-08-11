@@ -16,7 +16,7 @@
         </a>
 
           <a href="{{ route('signup')}}">
-            Sign Up
+            Profile
         </a>
 
 
