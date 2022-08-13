@@ -18,6 +18,6 @@ class LogInController extends Controller
         ]);
         
         $user = $request->input('user');
-        return view("pages.loggedIn")->with('user', $user);  
+        return view("loggedIn.loggedIn")->with('user', $user);  
     }
 }
