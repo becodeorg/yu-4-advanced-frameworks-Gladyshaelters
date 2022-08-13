@@ -15,7 +15,7 @@
             Contact
         </a>
 
-          <a href="{{ route('signup')}}">
+          <a href="#">
             Profile
         </a>
 
