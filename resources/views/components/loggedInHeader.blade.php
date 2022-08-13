@@ -3,15 +3,15 @@
 
     <div class="nav">
 
-        <a href="{{ route('home')}}">
+        <a href="{{ route('loggingIn')}}"> <!--NOT WORKING!-->
             Home
         </a>
 
-        <a href="{{ route('aboutPage')}}">
+        <a href="#">
             About
         </a>
 
-        <a href="{{ route('contact')}}">
+        <a href="#}">
             Contact
         </a>
 
