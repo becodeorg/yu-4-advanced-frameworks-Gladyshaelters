@@ -13,5 +13,14 @@ Route::get('contact', [ContactController::class, 'show'] )->name("contact");
 Route::get('signup', [SignupController::class, 'show'] )->name("signup");
 Route::get('logIn', [LogInController::class, 'show'] )->name("logIn");
 
+
+//Loggedin Routes
+
 Route::get('homeLoggedIn', [LogInController::class, 'submitLogIn'] )->name("loggingIn");
 Route::post('homeLoggedIn', [LogInController::class, 'submitLogIn'] )->name("submitLoggedIn");
+
+//still need to make controller and  USE
+Route::get('posts', function(){
+    return view('loggedIn.posts');
+    }
+);
