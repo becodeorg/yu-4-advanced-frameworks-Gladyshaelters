@@ -20,7 +20,7 @@
 
     <h2>Last status/post update</h2>
 
-
+    <p>Lorem ipsum dolor sit amet, entore in quod, sapiente incidunt totam facilis eveniet recusandae veniam ea! </p>
     <h3><a href="/posts">See all status updates</a></h3>
    
 @endsection

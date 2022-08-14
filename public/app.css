@@ -9,6 +9,10 @@ body {
     
 }
 
+header{
+    text-align: center;
+}
+
 .nav {
     overflow: hidden;
     background-color: #333;
