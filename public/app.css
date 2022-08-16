@@ -6,17 +6,17 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
-header{
+header {
     text-align: center;
 }
 
 .nav {
     overflow: hidden;
     background-color: #333;
-    font-weight:700 ;
+    font-weight: 700;
 }
 
 .nav a {
@@ -33,19 +33,54 @@ header{
     color: black;
 }
 
-.container{
- background-color: #ddd;
+.container {
+    background-color: #ddd;
 }
+
 .content {
     text-align: center;
-   
+
     padding: 10px;
     margin: auto;
     height: 600px;
     max-width: 600px;
-}   
+}
 
 footer {
     background-color: #f1f1f1;
     padding: 10px;
+}
+
+
+.calendar-month {
+    height: 380px;
+}
+
+.calendar-month .titular {
+    background: #7e848d6e;
+}
+
+
+.calendar {
+    margin: 22px 15px;
+    text-align: center;
+}
+
+
+.calendar td,
+.calendar th {
+    width: 40px;
+    height: 38px;
+}
+
+.calendar .days-week {
+    color: #4fc4f6;
+}
+
+.calendar .today {
+    display: block;
+    width: 34px;
+    line-height: 34px;
+    background: #e64c65;
+    border-radius: 100%;
 }
