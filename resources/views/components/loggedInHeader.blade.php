@@ -3,7 +3,7 @@
 
     <div class="nav">
 
-        <a href="{{ route('loggingIn')}}"> <!--NOT WORKING!-->
+        <a href="/homeLoggedIn"> <!--NOT WORKING!-->
             Home
         </a>
 

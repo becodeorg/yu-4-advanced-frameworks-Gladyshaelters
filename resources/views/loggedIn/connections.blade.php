@@ -1,7 +1,7 @@
 @extends('components.loggedInLayout')
 @section('content')
 <section>
-<p>hello world CANNECTIONS</p>
+<p>hello world CONNECTIONS</p>
 
 
 

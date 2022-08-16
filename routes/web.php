@@ -21,7 +21,10 @@ Route::post('homeLoggedIn', [LogInController::class, 'submitLogIn'] )->name("sub
 
 
 
+
 //still need to make controller and  USE
+
+
 Route::get('posts', function(){
     return view('loggedIn.posts');
     }
@@ -44,6 +47,11 @@ Route::get('healthStats', function(){
 
 Route::get('album', function(){
     return view('loggedIn.album');
+    }
+);
+
+Route::get('agenda', function(){
+    return view('loggedIn.agenda');
     }
 );
 
