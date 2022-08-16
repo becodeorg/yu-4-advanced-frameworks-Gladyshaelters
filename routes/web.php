@@ -19,8 +19,38 @@ Route::get('logIn', [LogInController::class, 'show'] )->name("logIn");
 Route::get('homeLoggedIn', [LogInController::class, 'submitLogIn'] )->name("loggingIn");
 Route::post('homeLoggedIn', [LogInController::class, 'submitLogIn'] )->name("submitLoggedIn");
 
+
+
 //still need to make controller and  USE
 Route::get('posts', function(){
     return view('loggedIn.posts');
     }
 );
+
+Route::get('profile', function(){
+    return view('loggedIn.profile');
+    }
+);
+
+Route::get('milestone', function(){
+    return view('loggedIn.milestone');
+    }
+);
+
+Route::get('healthStats', function(){
+    return view('loggedIn.healthStats');
+    }
+);
+
+Route::get('album', function(){
+    return view('loggedIn.album');
+    }
+);
+
+Route::get('connections', function(){
+    return view('loggedIn.connections');
+    }
+);
+
+
+

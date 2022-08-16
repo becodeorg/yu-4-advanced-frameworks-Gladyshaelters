@@ -7,16 +7,43 @@
             Home
         </a>
 
-        <a href="#">
+        <!-- this in drop down menu?
+            <a href="#">
             About
         </a>
 
-        <a href="#}">
+        <a href="#">
             Contact
+        </a>-->
+
+        <a href="/profile">
+            Profile
         </a>
 
-          <a href="#">
-            Profile
+        <a href="/posts">
+            Posts
+        </a>
+
+        <a href="/milestone">
+            Milestones
+        </a>
+
+
+        <a href="/healthStats">
+            Health Stats
+        </a>
+
+        <a href="/album">
+            Album
+        </a>
+
+        <a href="/agenda">
+            Agenda
+        </a>
+
+
+        <a href="/connections">
+            Connections
         </a>
 
 
