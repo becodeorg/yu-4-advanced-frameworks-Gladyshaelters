@@ -51,7 +51,7 @@ footer {
     padding: 10px;
 }
 
-
+/*AGENDA*/
 .calendar-month {
     height: 380px;
 }
@@ -84,3 +84,23 @@ footer {
     background: #e64c65;
     border-radius: 100%;
 }
+
+/*PROFILE*/
+
+.middle-container {
+    margin: 0 25px;
+}
+
+.profile {
+    height: 410px;
+}
+
+.user-name {
+    margin: 25px 0 16px;
+    text-align: center;
+}
+
+.profile-description {
+    width: 210px;
+    margin: 0 auto;
+    text-align: center;
